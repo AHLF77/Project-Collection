@@ -1,0 +1,134 @@
+:root{
+	--sub-yellow: #FFC20D;
+	--sub-green: #009223;
+	
+}
+
+.hidden{
+	display: none;
+}
+
+#main-nav{
+	margin-bottom: 1px;
+}
+
+.sub-green{
+	color:var(--sub-green);
+	
+}
+
+.sub-yellow{
+	color:var(--sub-yellow)
+}
+
+#cartForm:hover{
+	color:var(--sub-yellow);
+}
+#cart-cnt{
+	background-color: var(--sub-yellow);
+}
+
+#cart-cnt:hover{
+	color:var(--sub-yellow);
+}
+
+.producta{
+	color: black; 
+	text-decoration: none; 
+	outline: none
+}
+
+.producta:hover, .producta:active {
+	text-decoration: none; 
+	color:var(--sub-green); 
+	background-color:#f59000;
+}
+
+#cartForm{
+	float:right;
+}
+
+#main-menu{
+	justify-content: space-around;
+	
+}
+
+
+#main-header{
+	background-color: #009223
+}
+
+.sub-active{
+	background-color: var(--sub-yellow);
+	border-radius: 5px;
+}
+
+.sub-menu{
+	font-weight: bold;
+	margin-top: 0;
+}
+
+
+
+.sub-menu:visited{
+	color:var(--sub-green);
+}
+
+.productinfo--img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.mealmethod--img{
+	height: 300px;
+}
+
+.topping--select{
+	margin: 25px;
+    text-align: center;
+}
+.detail--main--div{
+	margin-left: 3px;
+    width: 100%;
+    text-align: center;
+}
+ 
+.detail--div{
+	display: inline-block;
+    width: 50%;
+}
+
+.detail--txt{
+	width: 50%;
+    text-align: left;
+}
+
+.detail--img{
+	width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+.selectedbox{
+	border: 3px solid var(--sub-green);
+}
+
+#detailBtnBox{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#main--screen{
+	display:flex;
+	flex-direction:column;
+	height:vh100;
+	
+}
+
+#ordersPage{
+	border-top: 3px dashed #0092236b;
+	padding-top: 30px
+}

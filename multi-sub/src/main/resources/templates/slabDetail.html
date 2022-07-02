@@ -1,0 +1,52 @@
+<script>
+$(document).ready(function(){
+	$('#ordersPage').hide();
+	$('#testBtn').click(function(){
+		$('#topping-select').attr({
+			'method' : 'post',
+			'action' : 'toppingaddimpl'
+		})
+		$('#topping-select').submit();
+	});
+});
+</script>
+<meta charset="UTF-8">
+<link href="css/multi-sub.css" rel="stylesheet" />
+<div class="col-xl-12 col-md-12 mb-12"  > 
+   <div class="card border-left-primary h-100 py-2">
+      <div class="card-body"  >
+          <div class="row no-gutters align-items-center">
+              <div class="col-xl-4 detail--div"  id ="imgbox">
+                  <img id="main" class=" detail--img" src='/img/a1.jpg' th:src="@{/img/}+ ${prod.imgname}">
+              </div>
+              <div class="col-xl-8 detail--txt">
+                  <div class="h5 font-weight-bold text-gray mb-0" th:text="'Name: '+${prod.name}">
+                      Customer Count</div>
+                  <div class="h6 mb-0 font-weight-bold text-gray-800" th:text="'Price: '+${prod.price}">
+                  	30000
+                  </div>
+              </div>
+      
+          </div>
+      </div>
+  </div>
+  <div id="detailBtnBox">
+	<a href="/" class="btn btn-success">주문취소</a>
+	<a class="btn btn-outline-success" id="testBtn" style="color: #198754;border-color: #198754; float: right;">
+		<i class="bi bi-basket2 me-1 sub-green"></i>상품담기</a>
+</div>
+</div>
+
+<form id="topping-select">
+    <input type="hidden" th:value="${prod.id}" name="prod">     
+    <input type="hidden" value=999 name ="bread">
+    <input type="hidden" value=999 name ="toast">
+    <input type="hidden" value=999 name ="cm">
+    <input type="hidden" value=999 name ="cheese">
+    <input type="hidden" value=999 name ="others">
+    <input type="hidden" value=999 name ="sauce">
+    <input type="hidden" value=999 name ="vegetable">
+
+</form>
+
+
