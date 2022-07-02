@@ -1,4 +1,4 @@
-# 💎Project Collection 💎
+# 💎Project Collection💎
 
 ## 삼성 멀티캠퍼스([14회차] AI플랫폼을 활용한 웹서비스 개발)
 
