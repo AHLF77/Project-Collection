@@ -167,10 +167,10 @@ public class SelectController {
 			int prod,
 			HttpSession session) {
 		
-		ProductVO product = null;
-		OrdersDetailVO oderd = null;
-		ToppingDetailVO td = null;
-		int num = 1;
+			ProductVO product = null;
+			OrdersDetailVO oderd = null;
+			ToppingDetailVO td = null;
+			int num = 1;
 	
 		try {
 			HashMap<String, Object> hashMap  = new HashMap(); 

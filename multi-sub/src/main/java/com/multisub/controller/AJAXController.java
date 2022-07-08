@@ -53,7 +53,7 @@ public class AJAXController {
 			System.out.println("check :: "+check);
 			System.out.println("result :: "+result);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			throw new Exception();
 		}

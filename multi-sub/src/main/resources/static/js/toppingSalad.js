@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
 	$('#select-vegetable').hide();

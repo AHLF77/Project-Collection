@@ -146,7 +146,7 @@ function change_qty2(t,cnt){
 	 	
 	var min_qty = 1;
 	var this_qty = $("#ct_qty"+cnt).val()*1;
-	var max_qty = '10'; // 현재 재고
+	var max_qty = '10'; // 최대 수량 재고
 	if(t=="m"){
 		this_qty -= 1;
 		if(this_qty<min_qty){

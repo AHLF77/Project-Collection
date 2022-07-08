@@ -108,7 +108,7 @@ public class MainController {
 				}
 			}
 		}
-		session.setAttribute("cartList",cartList);
+		session.setAttribute("cartList", cartList);
 		session.setAttribute("toppingPrice",toppingSum);
 		session.setAttribute("count",num);
 		// 토핑셀렉츠 정보 가져오기. -end

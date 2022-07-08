@@ -1,6 +1,3 @@
-
-
- 
 $(document).ready(function(){
 
 	$('#select-option').hide();
@@ -13,8 +10,6 @@ $(document).ready(function(){
 	$('#prevBtn').css("visibility","hidden");
 	$('#testBtn').hide();
 
-	
-	
 	$('#testBtn').click(function(){
 		if($('input:checkbox[name=others]').is(":checked")){
 			
